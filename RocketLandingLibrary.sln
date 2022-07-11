@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RocketLandingLibrary", "RocketLandingLibrary\RocketLandingLibrary.csproj", "{F3215617-FA4A-4EA7-8FED-BCDE5B4246C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RocketLandingLibrary.Test", "RocketLandingLibrary.Test\RocketLandingLibrary.Test.csproj", "{EE8327B6-8FD7-440F-A1F4-56D23B5B7C23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3215617-FA4A-4EA7-8FED-BCDE5B4246C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3215617-FA4A-4EA7-8FED-BCDE5B4246C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3215617-FA4A-4EA7-8FED-BCDE5B4246C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3215617-FA4A-4EA7-8FED-BCDE5B4246C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE8327B6-8FD7-440F-A1F4-56D23B5B7C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE8327B6-8FD7-440F-A1F4-56D23B5B7C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE8327B6-8FD7-440F-A1F4-56D23B5B7C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE8327B6-8FD7-440F-A1F4-56D23B5B7C23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDEDE178-72D4-469B-8771-8C8A6798CE7C}
+	EndGlobalSection
+EndGlobal
