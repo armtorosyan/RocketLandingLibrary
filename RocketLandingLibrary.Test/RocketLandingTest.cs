@@ -5,7 +5,7 @@ namespace RocketLandingLibrary.Test
 {
     public class RocketLandingTest
     {
-        private LandingPlatform _landingPlatform;
+        private ILandingPlatform _landingPlatform;
 
         public RocketLandingTest()
         {
@@ -16,7 +16,7 @@ namespace RocketLandingLibrary.Test
         public void ShouldReturnOkForLandingTest()
         {
 
-            var  result = _landingPlatform.CheckPosition(7, 6);
+            var result = _landingPlatform.CheckPosition(7, 6);
 
             Assert.Equal("ok for landing", result);
         }
